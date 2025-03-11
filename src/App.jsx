@@ -3,7 +3,11 @@ import Button from './components/Button';
 
 const App = () => {
   return (
-    <>
+    <div
+      style={{
+        background: '#4B5945',
+      }}
+    >
       <span
         style={{
           display: 'flex',
@@ -12,14 +16,19 @@ const App = () => {
           justifyContent: 'center',
           alignContent: 'center',
           height: '100vh',
+          marginTop: '0px',
+          marginBottom: '0px',
+          fontFamily: 'Martian Mono, monospace',
+          fontSize: '1.35rem',
+          color: '#F2EFE7',
         }}
       >
-        <h1 style={{ marginBottom: '30px' }}>Count 🚀</h1>
-        <span style={{ display: 'flex' }}>
+        <h1 style={{ marginBottom: '30px' }}>🚀 Counter 🚀</h1>
+        <div style={{ display: 'flex' }}>
           <Button />
-        </span>
+        </div>
       </span>
-    </>
+    </div>
   );
 };
 

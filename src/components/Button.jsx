@@ -19,7 +19,6 @@ const Button = () => {
           marginRight: '30px',
           marginLeft: '30px',
         }}
-        onClick={() => setContador(contador + 1)}
       >
         {contador}
       </button>
